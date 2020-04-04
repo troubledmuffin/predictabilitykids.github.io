@@ -57,10 +57,10 @@ print OUTPUT <<"EOF";
 -->
 
 	<link rel='stylesheet' href='setup/styles.css' type='text/css'>
-	<script type="text/javascript" src="_lib/$outputFile[0]"></script>
+	<script type="text/javascript" src="lib/$outputFile[0]"></script>
 	<script type="text/javascript" src="setup/settings.js"></script>
 	<script type="text/javascript" src="setup/design.js"></script>
-	<script type="text/javascript" src="_lib/$outputFile[1]"></script>
+	<script type="text/javascript" src="lib/$outputFile[1]"></script>
 
   
 </head>
